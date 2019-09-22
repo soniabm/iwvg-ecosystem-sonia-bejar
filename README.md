@@ -2,6 +2,7 @@
 ## Práctica de Ecosistema (IWVG-ecosystem)
 ### Estado del código
 [![Build Status](https://travis-ci.org/soniabm/iwvg-ecosystem-sonia-bejar.svg?branch=develop)](https://travis-ci.org/soniabm/iwvg-ecosystem-sonia-bejar)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-ecosystem-sonia-bejar&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aiwvg-ecosystem-sonia-bejar)
 
 ## Ecosistema
 * Java
