@@ -33,4 +33,10 @@ public class UserTest {
     void testGetNumber() {
         assertEquals(1, user.getNumber());
     }
+
+    @Test
+    void testSetNumber() {
+        user.setNumber(2);
+        assertEquals(2, user.getNumber());
+    }
 }
