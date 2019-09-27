@@ -41,4 +41,9 @@ public class DecimalCollection {
         this.validateIsNullOrEmpty();
         return Collections.min(this.collection);
     }
+
+    public boolean contains(Double number) {
+        this.validateIsNullOrEmpty();
+        return this.collection.contains(number);
+    }
 }
