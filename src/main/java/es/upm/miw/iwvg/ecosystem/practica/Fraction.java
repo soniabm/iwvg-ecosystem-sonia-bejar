@@ -23,8 +23,23 @@ public class Fraction {
         return numerator;
     }
 
+    public void setNumerator(int numerator) {
+        this.numerator = numerator;
+    }
+
     public int getDenominator() {
         return denominator;
     }
 
+    public void setDenominator(int denominator) {
+        this.denominator = denominator;
+    }
+
+    public boolean isEquivalent(Fraction fraction) {
+        return this.numerator * fraction.getDenominator() == this.denominator * fraction.getNumerator();
+    }
+
+    public boolean isImproper() {
+        return this.denominator < this.numerator;
+    }
 }
