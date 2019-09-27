@@ -39,7 +39,4 @@ public class Fraction {
         return this.numerator * fraction.getDenominator() == this.denominator * fraction.getNumerator();
     }
 
-    public boolean isImproper() {
-        return this.denominator < this.numerator;
-    }
 }

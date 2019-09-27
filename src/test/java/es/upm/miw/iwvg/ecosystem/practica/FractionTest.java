@@ -51,8 +51,4 @@ class FractionTest {
         assertEquals(false, fraction.isEquivalent(fraction1));
     }
 
-    @Test
-    void testIsImproper() {
-        assertEquals(false, fraction.isImproper());
-    }
 }
