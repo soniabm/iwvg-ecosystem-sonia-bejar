@@ -23,11 +23,15 @@ public class User {
     }
 
     public String initials() {
-        return this.name.substring(0, 1) + ".";
+        return this.name.substring(0, 1) + "." + this.familyName.substring(0, 1);
     }
 
     public int getNumber() {
         return this.number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
     }
 
     public String getName() {
@@ -37,5 +41,4 @@ public class User {
     public String getFamilyName() {
         return this.familyName;
     }
-
 }

@@ -26,11 +26,17 @@ public class UserTest {
 
     @Test
     void testInitials() {
-        assertEquals("S.", user.initials());
+        assertEquals("S.B", user.initials());
     }
 
     @Test
     void testGetNumber() {
         assertEquals(1, user.getNumber());
+    }
+
+    @Test
+    void testSetNumber() {
+        user.setNumber(2);
+        assertEquals(2, user.getNumber());
     }
 }
