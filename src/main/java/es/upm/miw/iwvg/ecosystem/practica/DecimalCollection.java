@@ -37,4 +37,13 @@ public class DecimalCollection {
         return Collections.max(this.collection);
     }
 
+    public double minimum() {
+        this.validateIsNullOrEmpty();
+        return Collections.min(this.collection);
+    }
+
+    public boolean contains(Double number) {
+        this.validateIsNullOrEmpty();
+        return this.collection.contains(number);
+    }
 }
