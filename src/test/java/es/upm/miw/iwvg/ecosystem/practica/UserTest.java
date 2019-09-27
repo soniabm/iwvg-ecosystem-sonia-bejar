@@ -26,7 +26,7 @@ public class UserTest {
 
     @Test
     void testInitials() {
-        assertEquals("S.", user.initials());
+        assertEquals("S.B", user.initials());
     }
 
     @Test
