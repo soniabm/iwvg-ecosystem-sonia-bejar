@@ -62,4 +62,15 @@ class PointTest {
         assertEquals(2, point.getY());
     }
 
+    @Test
+    void testGetValidCoordinate() {
+        point = new Point(100, -100);
+        assertEquals(100, point.getX());
+        assertEquals(-100, point.getY());
+        point = new Point(-101, 101);
+        assertEquals(0, point.getX());
+        assertEquals(0, point.getY());
+
+    }
+
 }
