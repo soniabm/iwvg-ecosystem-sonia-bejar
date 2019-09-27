@@ -30,4 +30,16 @@ class FractionTest {
     void testDecimal() {
         assertEquals(0.5, fraction.decimal());
     }
+
+    @Test
+    void testSetNumerator() {
+        fraction.setNumerator(5);
+        assertEquals(5, fraction.getNumerator());
+    }
+
+    @Test
+    void testSetDenominator() {
+        fraction.setDenominator(8);
+        assertEquals(8, fraction.getDenominator());
+    }
 }

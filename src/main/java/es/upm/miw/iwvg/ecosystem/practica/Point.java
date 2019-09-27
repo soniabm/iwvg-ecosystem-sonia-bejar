@@ -48,8 +48,8 @@ public class Point {
         this.y = this.getValidCoordinate(y);
     }
 
-    private int getValidCoordinate(int n){
-        return  n > 100 || n < -100 ? 0 : n;
+    private int getValidCoordinate(int n) {
+        return n > 100 || n < -100 ? 0 : n;
     }
 
     @Override
