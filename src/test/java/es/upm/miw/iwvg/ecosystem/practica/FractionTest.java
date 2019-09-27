@@ -42,4 +42,12 @@ class FractionTest {
         fraction.setDenominator(8);
         assertEquals(8, fraction.getDenominator());
     }
+
+    @Test
+    void testisEquivalent() {
+        Fraction fraction1 = new Fraction(4, 8);
+        assertEquals(true, fraction.isEquivalent(fraction1));
+        fraction1 = new Fraction(5, 8);
+        assertEquals(false, fraction.isEquivalent(fraction1));
+    }
 }

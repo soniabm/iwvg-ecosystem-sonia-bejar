@@ -35,4 +35,8 @@ public class Fraction {
         this.denominator = denominator;
     }
 
+    public boolean isEquivalent(Fraction fraction) {
+        return this.numerator * fraction.getDenominator() == this.denominator * fraction.getNumerator();
+    }
+
 }
